@@ -14,3 +14,18 @@ jobs:
       run: Get-ChildItem -Path . -Include *.php -Recurse | ForEach-Object { php -l $_ }
       shell: pwsh
 
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+
+      - name: Deploy to Hosting
+        uses: SamKirkland/FTP-Deploy-Action@4.0.0
+        with:
+         server: ${{ secrets.SITE_SERVER }}
+         username: ${{ secrets.SITE_USERNAME }}
+         password: ${{ secrets.SITE_PASSWORD }}

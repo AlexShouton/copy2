@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="normalize.css">
@@ -23,7 +23,7 @@
                         <a href="#"><img class="header-loupe" src="img/header/search.svg" height="18" alt=""></a>
                     </div>
                     <nav class="header-menu">
-                        <a href="index.html">Главная</a>
+                        <a href="index.html">Главная!</a>
                         <a href="catalog/index.html">Каталог</a>
                         <a href="partners/index.html">Партнеры</a>
                         <a href="about/index.html">О нас</a>
