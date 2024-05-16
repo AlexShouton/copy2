@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,700&display=swap" rel="stylesheet">
+    <title>Memoda</title>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="header-inner">
+                <a class="header-logo" href="index.html">
+                    <img src="img/logo/logo.jpg" height="92px" width="155px" alt="Logo">
+                </a>
+                <div class="header-middle">
+                    <div class="header-searcher">
+                        <input class="header-search" placeholder="Поиск среди более 150 тысяч товаров" type="text">
+                        <a href="#"><img class="header-loupe" src="img/header/search.svg" height="18" alt=""></a>
+                    </div>
+                    <nav class="header-menu">
+                        <a href="../index.html">Главная</a>
+                        <a href="../catalog/index.html">Каталог</a>
+                        <a href="../partners/index.html">Партнеры</a>
+                        <a href="../about/index.html">О нас</a>
+                        <a href="index.html">Контакты</a>
+                    </nav>
+                </div>
+                <div class="header-auth">
+                    <a href="../signin/index.html">
+                        <img src="img/header/user.webp" height="42px" alt="" style="padding-left: 7px;">
+                        <div>Войти</div>
+                    </a>
+                    <a href="../signup/index.html">
+                        <img src="img/header/user.webp" height="42px" alt="" style="padding-left: 25px;">
+                        <div>Регистрация</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="form">
+        <div class="container">
+            <div class="form-inner">
+                <div class="exit">
+                    <a href="../index.html">Главная</a>
+                    <div class="arrow arrow-right"></div>
+                    <p href="#" style="display: inline; color: #000;">Контакты</p>
+                </div>
+                <div class="form-title">Контакты</div>
+                <form class="form-petition" action="">
+                    <div class="form-left">
+                        <p class="form-title-petition">Напишите нам, если у вас возникли вопросы</p>
+                        <div class="form-fields">
+                            <div class="form-data">                      
+                                <p>Имя*</p>
+                                <input placeholder="Введите имя" type="text">
+                            </div>
+                            <div class="form-data">
+                                <p>Фамилия</p>
+                                <input placeholder="Введите фамилию" type="text">
+                            </div>
+                            <div class="form-data">
+                                <p style="padding-top: 14px;">Номер телефона*</p>
+                                <input placeholder="Введите номер телефона" type="text">
+                            </div>
+                            <div class="form-data">
+                                <p style="padding-top: 14px;">E-Mail*</p>
+                                <input placeholder="Введите E-Mail" type="text">
+                            </div>
+                        </div>
+                        <div class="form-check"><input type="checkbox">Я принимаю пользовательское соглашение и условия
+                            конфиденциальности</div>
+                        <button class="form-submit" type="submit">Отправить</button>
+                    </div>
+                    
+                    <div class="form-right">
+                        <p>Текст обращения</p>
+                        <textarea placeholder="Ваше обращение..." id="" cols="30" rows="10"></textarea>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-inner">
+                <div class="footer-block">
+                    <div class="footer-title">О компании</div>
+                    <a href="../about/index.html" class="footer-btn">О нас</a>
+                    <a href="index.html" class="footer-btn">Контакты</a>
+                    <a href="../partners/index.html" class="footer-btn">Наши партнеры</a>
+                </div>
+                <div class="footer-block">
+                    <div class="footer-title">Наши партнеры</div>
+                    <a href="#" class="footer-btn">Стать партнером</a>
+                    <a href="#" class="footer-btn">Бренд под ключ</a>
+                    <a href="#" class="footer-btn">Открыть пункт выдачи</a>
+                </div>
+                <div class="footer-block">
+                    <div class="footer-title">Покупателям</div>
+                    <a href="#" class="footer-btn">Связаться с нами</a>
+                    <a href="#" class="footer-btn">Как сделать заказ?</a>
+                    <a href="#" class="footer-btn">Доставка</a>
+                </div>
+                <div class="footer-block">
+                    <div class="footer-title">Контакты</div>
+                    <a href="about/index.html" class="footer-phone">+7(880)-555-35-35</a>
+                    <div class="footer-links">
+                        <a href="#" class="footer-link"><img src="img/icons/vk.svg" height="30" alt=""></a>
+                        <a href="#" class="footer-link"><img src="img/icons/twitch.svg" height="25" alt=""></a>
+                        <a href="#" class="footer-link"><img src="img/icons/youtube.svg" height="30" alt=""></a>
+                    </div>
+                    <div class="footer-download">Скачивайте наше приложение</div>
+                    <img src="img/footer/1.png" height="30" style="margin-right: 10px;" alt="">
+                    <img src="img/footer/2.png" height="30" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/8804b62e93.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>

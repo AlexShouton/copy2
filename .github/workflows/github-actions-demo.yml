@@ -1,0 +1,16 @@
+name: Deploy to Hosting
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+
+  build:
+    runs-on: windows-latest
+    steps:
+
+    - name: Lint PHP files
+      run: Get-ChildItem -Path . -Include *.php -Recurse | ForEach-Object { php -l $_ }
+      shell: pwsh
+
